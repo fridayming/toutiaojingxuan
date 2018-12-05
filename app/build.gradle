@@ -1,0 +1,111 @@
+apply plugin: 'com.android.application'
+
+//apply plugin: 'com.mob.sdk'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+
+        applicationId "com.deshang.ttjx"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        
+    }
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+        doNotStrip "*/armeabi/libdu.so"
+        doNotStrip "*/x86/libdu.so"
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'com.android.support:appcompat-v7:' + rootProject.ext.appcompat7Version
+    //
+    implementation project(':mvp-rx')
+    //本项目引用包
+
+    //    compile 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    implementation files('libs/jcore-android-1.2.5.jar')
+    implementation files('libs/jpush-android-3.1.6.jar')
+    implementation files('libs/MobCommons-2018.0523.1925.jar')
+    implementation files('libs/MobTools-2018.0523.1923.jar')
+    implementation files('libs/ShareSDK-Core-3.2.0.jar')
+    implementation files('libs/ShareSDK-Wechat-3.2.0.jar')
+    implementation files('libs/ShareSDK-Wechat-Core-3.2.0.jar')
+    implementation files('libs/ShareSDK-Wechat-Moments-3.2.0.jar')
+    //    compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+    implementation files('libs/Baidu_Mtj_3.9.0.6.jar')
+    implementation project(':libzxing-master')
+    implementation files('libs/libammsdk.jar')
+    implementation files('libs/open_sdk_r5781.jar')
+    implementation files('libs/du.jar')
+    implementation files('libs/Baidu_MobAds_SDK.jar')
+    implementation files('libs/ShareSDK-QQ-3.2.1.jar')
+    implementation files('libs/ShareSDK-QZone-3.2.1.jar')
+    implementation(name: 'open_ad_sdk', ext: 'aar')
+    implementation project(':MPChartLib')
+    //
+    // 数字滚动增加
+    implementation(name: 'geetest_deepknow_android_v0.3.8_20180829_sec', ext: 'aar')
+    implementation(name: 'geetest_sensebot_android_v0.1.3_20180827', ext: 'aar')
+    implementation 'com.bigkoo:convenientbanner:2.0.5'
+    implementation 'com.flyco.banner:FlycoBanner_Lib:2.0.2@aar'
+    implementation 'com.github.hackware1993:MagicIndicator:1.5.0'
+    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.1.6'
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.jcodecraeer:xrecyclerview:1.3.2'
+    implementation 'com.youth.banner:banner:1.4.10'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.6'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.robinhood.ticker:ticker:1.0.1'
+    implementation 'com.android.support:design:25.3.1'
+
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation files('libs/pldroid-player-2.1.5.jar')
+//    compile 'cn.fanrunqi:waveprogress:1.0.0'
+}

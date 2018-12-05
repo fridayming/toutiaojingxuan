@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml:2:11-49
+		INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+		INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+		ADDED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml:2:1-13:12
+		INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml:2:1-13:12
+	android:versionCode
+		INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+		ADDED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml:2:1-13:12
+		INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+uses-sdk
+INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+		ADDED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+		INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+		ADDED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
+		INJECTED from C:\Users\Charles\Desktop\toutiaojingxuan1.0.8\MPChartLib\AndroidManifest.xml
